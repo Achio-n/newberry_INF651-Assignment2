@@ -87,6 +87,11 @@ console.log("!bln2 = " + !bln2);
 function challenge7(){
   //Using Template Literals
 
+  let fName = "Brendan";
+  let lName = "Eich";
+  let greetingMessage = `Hello ${fName} ${lName}, welcome to Assignment 2!`;
+  console.log(greetingMessage);
+
 }
 challenge1Button.addEventListener("click", () => {
   challenge1();
